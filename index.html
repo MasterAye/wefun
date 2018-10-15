@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>微泛官网</title>
+
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./lib/swiper/swiper.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- 公共头部样式 -->
+    <header id="header">
+        <nav>
+            <div class="nav-logo">
+                <a href="#">
+                    <img class="visible-md visible-lg" src="./img/logo_white.png" alt="">
+                    <img class="visible-xs visible-sm" src="./img/bg-gray.png" alt="">
+                </a>
+            </div>
+            <ul class="hidden-xs hidden-sm pc-nav-li">
+                <li class="active"><a href="./index.html">首页<i class="underline action"></i></a></li>
+                <li><a href="./example.html">案例<i class="underline"></i></a></li>
+                <li><a href="./course.html">历程<i class="underline"></i></a></li>
+                <li><a href="./about.html">关于<i class="underline"></i></a></li>
+                <li><a href="./touch.html">联系<i class="underline"></i></a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu visible-xs visible-sm">
+            <div class="menu">
+                首页
+            </div>
+            <i class="arrow-menu"></i>
+            <ul class="mobile-nav-li">
+                <li><a href="./index.html">首页</a></li>
+                <li><a href="./example.html">案例</a></li>
+                <li><a href="./course.html">历程</a></li>
+                <li><a href="./about.html">关于</a></li>
+                <li><a href="./touch.html">联系</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="main">
+        <!-- 第一部分 背景部分 无动画-->
+        <section class="banner-bg">
+            <!-- 背景图 -->
+            <!-- <div class="pre-bg">
+            </div> -->
+            <div class="bg-video">
+                <video autoplay="autoplay" loop preload src="https://www.tencent.com/video/video20.mp4">
+                    <!-- <source type="video/mp4" src="https://www.tencent.com/video/video20.mp4"> -->
+                </video>
+            </div>
+            <!-- 遮罩层 -->
+            <div class="bg-mask"></div>
+            <!-- 公司描述 -->
+            <div class="presentation">
+                <!-- 文字描述 -->
+                <div class="pre-content">
+                    <div class="pre-text1">WE FUN</div>
+                    <div class="pre-text2">让小程序更<span>精彩</span></div>
+                    <div class="pre-more">
+                        <a href="./about.html">关于更多微泛的介绍</a>
+                    </div>
+                </div>
+                <!-- 公司服务 -->
+                <div class="project-list">
+                    <div class="container">
+                        <div class="row">
+                            <div>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa fa-code"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <span>自助建站平台</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa fa-terminal"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <span>自助建站平台</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa fa-dropbox" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <span>自助建站平台</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 第二部分 公司特点 -->
+        <section class="platform-feature">
+            <div class="feature">
+                <div class="text-all text-ani">
+                    <h4>细节精良，满足您对小程序所有的幻想</h4>
+                    <i></i>
+                </div>
+                <div class="text1">
+                    <p>设计精美和易于修改是微泛的两大特点</p>
+                </div>
+            </div>
+        </section>
+        <!-- 第三部分 平台服务 -->
+        <section class="platform-serve">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="./img/index_01.png" alt="">
+                        <div>无需下载</div>
+                        <p>共享微信10亿用户，让应用触手可及，打造微信全生态...</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./img/index_02.png" alt="">
+                        <div>应用场景</div>
+                        <p>连接更多的线下服务与线上用户，拓展O2O行业...</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./img/index_03.png" alt="">
+                        <div>对消费者价值</div>
+                        <p>用户无须安装、用完即走、无须卸载，降低用户使用门槛...</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./img/index_04.png" alt="">
+                        <div>对品牌商价值</div>
+                        <p>良好的用户体验与性能，与原生APP无差异，实现高效的品牌宣传...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 第四部分 平台优势 -->
+        <section class="platform-advantage">
+            <div class="advantage-content">
+                <div class="adv-bg">
+                    <div class="mask-layer"></div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="adv-head">
+                            <div class="text-all text-ani">
+                                <h4>平台优势</h4>
+                                <i class="adv-line"></i>
+                            </div>
+                            <div class="text1">
+                                <p>无与伦比的设计感是起飞页为您带来的一份承诺</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 adv-body">
+                            <div>
+                                <div class="adv-content">
+                                    <div>
+                                        <i><img src="./img/pinpai4.png" alt=""></i>
+                                    </div>
+                                    <i class="adv-line"></i>
+                                    <p>即买即用</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 adv-body">
+                            <div>
+                                <div class="adv-content">
+                                    <div>
+                                        <i><img src="./img/pinpai6.png" alt=""></i>
+                                    </div>
+                                    <i class="adv-line"></i>
+                                    <p>功能丰富</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 adv-body">
+                            <div>
+                                <div class="adv-content">
+                                    <div>
+                                        <i><img src="./img/pinpai7.png" alt=""></i>
+                                    </div>
+                                    <i class="adv-line"></i>
+                                    <p>强大售后</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 adv-body">
+                            <div>
+                                <div class="adv-content">
+                                    <div>
+                                        <i><img src="./img/pinpai8.png" alt=""></i>
+                                    </div>
+                                    <i class="adv-line"></i>
+                                    <p>服务支持</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 第五部分 购买产品 -->
+        <section class="buy-project">
+            <div class="buy-bg"></div>
+            <div class="mask-layer"></div>
+            <div class="buy-content">
+                <div class="container">
+                    <div class="row outrow">
+                        <div class="text-all text-ani">
+                            <h4>功能多样满足您的所有需求</h4>
+                            <i></i>
+                        </div>
+                        <div class="text1">
+                            <p>买买买不起666666</p>
+                        </div>
+                        <div class="container buy">
+                            <div class="row">
+                                <div class="col-md-6 action"><a href="#">免费试用</a></div>
+                                <div class="col-md-6"><a href="#">购买产品</a></div>
+                            </div>
+                        </div>
+                        <div class="bottom-img">
+                            <img src="./img/964x310.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 第六部分 客户评价 暂无动画 -->
+        <section class="client-estimate">
+            <div class="client-bg"></div>
+            <div class="client-content">
+                <div class="estimate">
+                    <h4>客户如何评价我们</h4>
+                    <p></p>
+                </div>
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4 left-img">
+                                        <img src="./img/peoplec1.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-8 right-text">
+                                        <p>起飞页是响应式建站专家，拥有全球最领先的屏幕
+                                            界面智能识别技术，实现所有建站功能组件在多种
+                                            屏幕下的完美呈现，真正让您的桌面/平板/手机3个
+                                            网站同步生成，还可连接微信公众平台，创建您的微站。
+                                            当今最领先的响应式自助建站平台，我们的流线式网页布局
+                                            设计方案和可视化图文内容编辑模式让网站制作和维护成为
+                                            一件轻松惬意的事。无论您是普通互联网用户， 还是专业
+                                            网站制作人员，都能使用起飞页设计出最具专业水准的网站。
+                                        </p>
+                                        <div class="client-info hidden-sm">
+                                            <div class="info-left">
+                                                <h4>孙杨</h4>
+                                                <p>X企业CEO联合创始人</X>
+                                                </p>
+                                            </div>
+                                            <div class="info-right visible-md visible-lg">
+                                                <h4>Microsoft</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4 left-img">
+                                        <img src="./img/peoplec1.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-8 right-text">
+                                        <p>起飞页是响应式建站专家，拥有全球最领先的屏幕
+                                            界面智能识别技术，实现所有建站功能组件在多种
+                                            屏幕下的完美呈现，真正让您的桌面/平板/手机3个
+                                            网站同步生成，还可连接微信公众平台，创建您的微站。
+                                            当今最领先的响应式自助建站平台，我们的流线式网页布局
+                                            设计方案和可视化图文内容编辑模式让网站制作和维护成为
+                                            一件轻松惬意的事。无论您是普通互联网用户， 还是专业
+                                            网站制作人员，都能使用起飞页设计出最具专业水准的网站。
+                                        </p>
+                                        <div class="client-info hidden-sm">
+                                            <div class="info-left">
+                                                <h4>孙杨</h4>
+                                                <p>X企业CEO联合创始人</X>
+                                                </p>
+                                            </div>
+                                            <div class="info-right visible-md visible-lg">
+                                                <h4>Microsoft</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4 left-img">
+                                        <img src="./img/peoplec1.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-8 right-text">
+                                        <p>起飞页是响应式建站专家，拥有全球最领先的屏幕
+                                            界面智能识别技术，实现所有建站功能组件在多种
+                                            屏幕下的完美呈现，真正让您的桌面/平板/手机3个
+                                            网站同步生成，还可连接微信公众平台，创建您的微站。
+                                            当今最领先的响应式自助建站平台，我们的流线式网页布局
+                                            设计方案和可视化图文内容编辑模式让网站制作和维护成为
+                                            一件轻松惬意的事。无论您是普通互联网用户， 还是专业
+                                            网站制作人员，都能使用起飞页设计出最具专业水准的网站。
+                                        </p>
+                                        <div class="client-info hidden-sm">
+                                            <div class="info-left">
+                                                <h4>孙杨</h4>
+                                                <p>X企业CEO联合创始人</X>
+                                                </p>
+                                            </div>
+                                            <div class="info-right visible-md visible-lg">
+                                                <h4>Microsoft</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators hidden-xs">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <!-- 第七部分 合作伙伴 暂无动画-->
+        <section class="partner">
+            <div class="text-all text-ani">
+                <h4>我们的战略合作伙伴</h4>
+                <i></i>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand01.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand02.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand03.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand04.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand05.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand06.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand07.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand08.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand09.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand10.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand11.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand12.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand13.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand14.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand15.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand16.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand17.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand18.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand19.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand20.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand21.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand22.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand23.png" alt=""></div>
+                    <div class="col-md-2 col-sm-2 col-xs-4"><img src="./img/brand24.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <!-- 第八部分 拥有产品 -->
+        <section class="try">
+            <div>
+                <div class="text-all">
+                    <h4>拥有一个网站或仅是尝试一下新的想法</h4>
+                    <i></i>
+                </div>
+                <div class="text1">
+                    <p>流线式网页布局设计方案，可视化图文内容编辑模式，它让网站制作和维护成为一件轻松惬意的事</p>
+                </div>
+                <div class="experience"><a href="#">免费体验</a></div>
+            </div>
+        </section>
+    </div>
+    <!-- 网站底部 -->
+    <footer id="footer">
+        <div class="footer-box">
+            <div class="footer-center">
+                <div class="lg-footer visible-md visible-lg">
+                    <ul class="clearfix">
+                        <li>
+                            <h4>关于我们</h4>
+                            <p>応损捠捡换攳，攴朰朲朳枛朸桸桹桺
+                                奿妀。夲夳夵壱売壳圢圤圥圦圧！圩
+                                圪囡団囤囥咍咎，咐咑厺厼厽桻桼忝
+                                忞帄帇帉帊峢団囤囥咍咎，咐咑厺厼厽
+                                桻桼忝忞帄帇帉帊峢団囤囥。</p>
+                        </li>
+                        <li>
+                            <h4>公司介绍</h4>
+                            <p>応损捠捡换攳，攴朰朲朳枛朸桸桹桺
+                                奿妀。夲夳夵壱売壳圢圤圥圦圧！圩
+                                圪囡団囤囥咍咎，咐咑厺厼厽桻桼忝
+                                忞帄帇帉帊峢団囤囥咍咎，咐咑厺厼厽
+                                桻桼忝忞帄帇帉帊峢団囤囥。</p>
+                        </li>
+                        <li>
+                            <h4>联系方式</h4>
+                            <ul>
+                                <li><i class="glyphicon glyphicon-envelope"></i><span>info@softwore.com</span></li>
+                                <li><i class="glyphicon glyphicon-earphone"></i><span>+86 188 1234 1234</span></li>
+                                <li><i class="glyphicon glyphicon-globe"></i><span>Little Lomsdale St</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>加入我们</h4>
+                            <img src="./img/aa.jpg" alt="">
+                        </li>
+                    </ul>
+                    <p>版权所有 ©2017 地址：苏州市工业园区大道金鸡湖大道99号 苏ICP备1230012300号</p>
+                </div>
+                <div class="sm-footer visible-xs visible-sm">
+                    <p>版权所有 ©2017</p>
+                    <p>地址：苏州市工业园区大道金鸡湖大道99号</p>
+                    <p>苏ICP备1230012300号</p>
+                </div>
+            </div>
+        </div>
+        <!-- 联系方式 -->
+        <div class="contact-us">
+            <div class="contact-content">
+                <img class="ball" src="./img/ball.png" alt="">
+                <img class="bg02" src="./img/bg_1.png" alt="">
+                <img class="bg03" src="./img/bg_2.png" alt="">
+                <img class="bg04" src="./img/bg_3.png" alt="">
+                <img class="bg01" src="./img/bg_0.png" alt="">
+            </div>
+            <div class="contact-eq">
+                <img src="./img/rr.jpg" alt="">
+            </div>
+        </div>
+        <!-- 底部导航 -->
+        <div class="footer-nav">
+            <!-- 立即试用 -->
+            <div class="use">
+                <span>
+                    <i class="glyphicon glyphicon-user"></i>
+                </span>
+                <div>
+                    立即试用
+                </div>
+            </div>
+            <!-- 电话咨询 -->
+            <div class="phone">
+                <span>
+                    <i class="glyphicon glyphicon-earphone"></i>
+                </span>
+                <div>
+                    电话咨询
+                </div>
+                <i class="phone-num" style="font-size: 14px;">400-078-9990</i>
+            </div>
+            <!-- 返回顶部 -->
+            <div class="back-head">
+                <span>
+                    <i class="glyphicon glyphicon-triangle-top"></i>
+                </span>
+                <div>
+                    回到顶部
+                </div>
+                <!-- <i class="glyphicon glyphicon-chevron-up"></i> -->
+            </div>
+        </div>
+        <!-- 立即试用弹窗 -->
+        <div class="pop-up">
+            <div class="pop-content">
+                <div class="pop-left">
+                    <img src="./img/popup.jpg" alt="">
+                </div>
+                <div class="pop-right">
+                    <div class="submenu ">
+                        <p style="font-size: 24px">订制小程序&nbsp;<span style="color: #ff3f1d;">
+                                <!-- ￥3999/年 -->
+                            </span>
+                            <!-- <span style="font-size: 16px;margin-left: 5px;">（有效期20天）</span></p> -->
+                    </div>
+                    <div class="msg">
+                        <div style="border-bottom: 1px solid #666666">
+                            <lable>姓名：</lable>
+                            <input type="text" id="name">
+                        </div>
+                        <div style="border-bottom: 1px solid #666666">
+                            <lable>电话：</lable>
+                            <input type="text" id="telephone">
+                        </div>
+                        <div style="border-bottom: 1px solid #666666">
+                            <lable>公司名称：</lable>
+                            <input type="text" id="company">
+                        </div>
+                        <div style="border-bottom: 1px solid #666666">
+                            <lable>职称：</lable>
+                            <input type="text" id="technicalTitle">
+                        </div>
+                    </div>
+                    <div class="advanced-button">
+                        <button style="width: 314px;height: 37px;background-color: #37b7eb;font-size: 16px;margin-top: 30px;
+                            color: white;margin-top: 42px;border: none;">立即申请</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./lib/jquery/jquery.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.js"></script>
+<script src="./lib/swiper/swiper.min.js"></script>
+<script src="./js/base.js?v=1"></script>
+<script src="./js/index.js?v=1"></script>
+
+</html>

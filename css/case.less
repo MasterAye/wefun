@@ -1,0 +1,77 @@
+
+
+#main {
+    // 第一部分 背景部分 案例
+    .banner-bg {
+        position: relative;
+        padding-top: 20px;
+        min-height: 862px;
+        // 背景图
+        .bg-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url("../img/1920x1284.jpg") no-repeat center center;
+            background-size: cover;
+        }
+        // 遮罩层
+        .mask-layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.3);
+        }
+        // 内容区
+        .case-banner {
+            position: relative;
+            width: 100%;
+            height: 100%;            
+            @media screen and (min-width: 992px){
+                max-width: 1024px;
+                margin: 0 auto;
+            }
+            .box1 {
+                padding-top: 134px;
+                .box2{
+                    .head-text {
+                        text-align: center;
+                        font-size: 36px;
+                        color: #fff;
+                    }
+                    .text1 {
+                        margin-top: 30px;
+                        margin-bottom: 40px;
+                        text-align: center;
+                        font-size: 18px;
+                        color:#fff;
+                    }
+                    .case-list {
+                        padding-top: 20px;
+                        >div {
+                            float: left;
+                            width: 33.33%;
+                            height: 559px;
+                            >div {
+                                height: 520px;
+                                background-color: #9d55ec;
+                            }
+                            &:nth-child(1),&:nth-child(3){
+                                >div {
+                                    position: relative;                               
+                                    margin: 50px 10px 24px;
+                                    height: 440px;
+                                    background-color: #85ff00;
+                                }
+                            }
+                    
+                        }
+                    }
+                }
+            }
+        }   
+    }
+}

@@ -1,0 +1,319 @@
+#main .banner-bg {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 102px;
+}
+#main .banner-bg .bg-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../img/1920x1280.jpg") no-repeat;
+  background-size: cover;
+  top: 0;
+}
+#main .banner-bg .mask-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(56, 48, 37, 0.3);
+}
+#main .banner-bg .banner-content {
+  position: relative;
+}
+#main .banner-bg .banner-content > div {
+  padding: 0 40px;
+}
+#main .banner-bg .banner-content > div .center-content {
+  position: relative;
+  padding: 0 5px;
+  padding-top: 118px;
+}
+#main .banner-bg .banner-content > div .center-content > div {
+  position: relative;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  line-height: 34px;
+}
+#main .banner-bg .banner-content > div .center-content > div > img {
+  width: 226px;
+  height: 34px;
+}
+#main .banner-bg .banner-content > div .center-content > div > span {
+  vertical-align: middle;
+  font-size: 36px;
+  color: #fff;
+}
+@media screen and (max-width: 992px) {
+  #main .banner-bg {
+    padding: 0;
+  }
+  #main .banner-bg .banner-content {
+    position: relative;
+  }
+  #main .banner-bg .banner-content > div .center-content {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #main .banner-bg .banner-content > div {
+    padding: 0;
+  }
+  #main .banner-bg .banner-content > div .center-content > div > span {
+    vertical-align: middle;
+    font-size: 19px;
+  }
+}
+#main .suc-head {
+  position: relative;
+  padding-top: 20px;
+}
+#main .suc-head > div {
+  padding-top: 80px;
+  padding-bottom: 28px;
+  text-align: center;
+}
+#main .suc-head > div .text-all > h4 {
+  font-family: 微软雅黑;
+}
+#main .suc-head > div .text1 > p {
+  color: #808080;
+}
+@media screen and (max-width: 992px) {
+  #main .suc-head > div {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #main .suc-head > div .text-all > h4 {
+    font-size: 20px;
+    color: #333;
+  }
+  #main .suc-head > div .text1 > p {
+    color: #696969;
+    font-size: 12px;
+  }
+}
+#main .suc-head.animation > div .text-all {
+  opacity: 1;
+  transform: none;
+}
+#main .suc-case {
+  position: relative;
+  padding-top: 20px;
+}
+#main .suc-case > div {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 100px 40px;
+}
+@media screen and (min-width: 992px) {
+  #main .suc-case > div #carousel-example-generic .carousel-inner {
+    opacity: 0;
+    transition: all 0.3s ease-out 0s;
+    transform: translateX(100%);
+  }
+}
+#main .suc-case > div #carousel-example-generic .carousel-inner .item > a {
+  position: relative;
+  display: block;
+  padding: 0;
+  overflow: hidden;
+}
+#main .suc-case > div #carousel-example-generic .carousel-inner .item > a > span {
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  top: 18px;
+  left: 0;
+  width: 180px;
+}
+#main .suc-case > div #carousel-example-generic .carousel-inner .item > a > img {
+  width: 100%;
+  height: auto;
+  margin-left: 100px;
+}
+#main .suc-case > div #carousel-example-generic .carousel-inner .item > div {
+  position: relative;
+  padding-left: 100px;
+  padding-top: 85px;
+}
+#main .suc-case > div #carousel-example-generic .carousel-inner .item > div > h4 {
+  color: #1c1c1c;
+  font-size: 16px;
+}
+#main .suc-case > div #carousel-example-generic .carousel-inner .item > div > i {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #e0e0e0;
+}
+#main .suc-case > div #carousel-example-generic .carousel-inner .item > div > p {
+  font-size: 13px;
+  color: #848484;
+}
+#main .suc-case > div #carousel-example-generic .carousel-control {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  top: auto;
+  bottom: 0;
+  background-color: #ccc;
+  opacity: 0;
+}
+#main .suc-case > div #carousel-example-generic .carousel-control.left {
+  left: 44%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+}
+#main .suc-case > div #carousel-example-generic .carousel-control.right {
+  right: 47.6%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+}
+@media screen and (max-width: 992px) {
+  #main .suc-case {
+    padding: 0 15px;
+  }
+  #main .suc-case > div {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 15px 10px 0;
+  }
+  #main .suc-case > div #carousel-example-generic .carousel-inner .item {
+    display: block;
+    padding: 5px;
+  }
+  #main .suc-case > div #carousel-example-generic .carousel-inner .item > a > img {
+    margin-left: 0;
+  }
+  #main .suc-case > div #carousel-example-generic .carousel-inner .item > div {
+    padding-left: 0;
+    padding-top: 10px;
+  }
+  #main .suc-case > div #carousel-example-generic .carousel-inner .item > div > i {
+    width: 50%;
+  }
+}
+#main .suc-case.animation > div #carousel-example-generic .carousel-inner {
+  opacity: 1;
+  transform: none;
+}
+#main .suc-case.animation > div #carousel-example-generic .carousel-control {
+  opacity: 0.7;
+}
+#main .good-field {
+  position: relative;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+}
+#main .good-field .good-head {
+  padding: 80px 0 20px;
+  text-align: center;
+}
+#main .good-field .good-head .text1 > p {
+  color: #696969;
+}
+@media screen and (max-width: 992px) {
+  #main .good-field .good-head {
+    padding-top: 15px;
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #main .good-field .good-head .text-all > h4 {
+    font-size: 20px;
+    color: #1e3c3f;
+  }
+}
+#main .good-field.animation .good-head .text-all {
+  opacity: 1;
+  transform: none;
+}
+#main .good-body {
+  position: relative;
+  padding: 20px 0 80px;
+  background-color: #f2f2f2;
+}
+#main .good-body .container {
+  margin: 0 auto;
+  padding: 0 40px;
+}
+#main .good-body .container .row {
+  padding-top: 50px;
+}
+#main .good-body .container .row .outbox {
+  padding: 0 5px 5px;
+  margin-bottom: 5px;
+  transition: all .6s ease;
+  opacity: 0;
+  transform: translateY(100%);
+}
+#main .good-body .container .row .outbox .innerbox {
+  cursor: pointer;
+  transition: all 0.3s ease-out 0s;
+  padding: 20px;
+}
+#main .good-body .container .row .outbox .innerbox > img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+#main .good-body .container .row .outbox .innerbox > div {
+  margin-top: 20px 0 5px;
+  text-align: center;
+  color: red;
+  font-size: 18px;
+  line-height: 24px;
+}
+#main .good-body .container .row .outbox .innerbox > p {
+  text-align: center;
+  font-size: 12px;
+  color: #727272;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#main .good-body .container .row .outbox .innerbox:hover {
+  transform: translateY(-20px);
+}
+@media screen and (min-width: 992px) {
+  #main .good-body .container .row .outbox .innerbox:hover {
+    box-shadow: 0 4px 10px #CCC;
+  }
+}
+@media screen and (max-width: 992px) {
+  #main .good-body {
+    padding: 20px 0 53px;
+  }
+}
+#main .good-body.animation .container .row {
+  padding-top: 24px;
+}
+#main .good-body.animation .container .row .outbox {
+  opacity: 1;
+  transform: none;
+}
+#main > section .text-all > h4 {
+  font-family: 微软雅黑;
+  font-size: 32px;
+  transition: all ease .6s;
+}
+#main > section .text-all > i {
+  display: block;
+  margin: 20px auto;
+  width: 60px;
+  height: 4px;
+  background-color: red;
+}
+#main > section .text-ani {
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: all 1s;
+}

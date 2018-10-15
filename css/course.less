@@ -1,0 +1,308 @@
+
+
+// width: calc(100% - 200px);
+
+#main {
+    // 第一部分 背景部分
+    .banner-bg {
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 17px;
+        // 背景图
+        .bg-img {
+            position: absolute;
+            background: url("..//img/1920x1280.jpg") no-repeat center center;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;        
+        }
+        // 遮罩层
+        .mask-layer {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(0,0,0,0.3);
+        }
+        // 内容区
+        .banner-content {
+            position: relative;
+            max-width: 1024px;
+            margin: 0 auto;
+            >div {
+                padding-top: 165px;
+                padding-bottom: 67px;
+                text-align: center;
+                @media screen and (max-width: 992px){
+                    padding-top: 60px;
+                    padding-bottom: 62px;
+                }
+                @media screen and (max-width: 768px){
+                    padding-bottom: 35px;
+                }
+                >h4 {
+                    font-size: 36px;
+                    color: #fff;
+                    @media screen and (max-width: 768px){
+                        font-size: 19px;
+                    }
+                }
+            }
+        }
+        
+    }
+    // 第二部分
+    .course {
+        position: relative;
+        padding-top: 20px;
+        @media screen and (min-width: 992px){
+            min-height: 560px;
+            .box1 {
+                max-width: 1280px;
+                margin: 0 auto;
+                .box2 {
+                    position: relative;
+                    padding: 100px 45px;
+                    .course-list {
+                        overflow: hidden;
+                        .course-content {
+                            position: relative;
+                            padding: 5px;
+                            width: 100%;
+                            .content-center {
+                                .box3 {
+                                    width: 54%;     
+                                    border: 1px solid #fff;
+                                    transition: all 1s;
+                                    .text-node {   
+                                        position: relative;
+                                        z-index: 5;
+                                        margin-top: 20px;
+                                        float: right;
+                                        width: 200px;  
+                                        >h4 {
+                                            color: #bdbdbd;
+                                            font-size: 36px;
+                                            font-family: 微软雅黑;
+                                        }
+                                        >p {
+                                            color: #bdbdbd;
+                                            font-size: 12px;
+                                            font-family: 微软雅黑;
+                                        }
+                                    }
+                                    .time-head { 
+                                        position: relative;
+                                        margin-right: 200px;                                 
+                                        padding-right: 50px;
+                                        text-align: right;
+                                        height: 120px;
+                                        display: table-cell;
+                                        vertical-align: middle;
+                                        .mask {
+                                            transition: all 1s;
+                                            position: absolute;
+                                            z-index: 1;
+                                            top: 0;
+                                            height: 100%;
+                                            width: 110%;
+                                        }
+                                        >h4 {
+                                            position: relative;
+                                            z-index: 5;
+                                            color: #333333;
+                                            font-size: 16px;
+                                            font-family: 微软雅黑;
+                                            font-weight: normal;                                    
+                                        }
+                                        >p {
+                                            position: relative;
+                                            z-index: 5;
+                                            color: #999999;
+                                            font-size: 13px;                                        
+                                            word-break: break-all;
+                                            font-family: 微软雅黑;
+                                            line-height: 24px;
+                                        }
+                                    }                
+                                }                    
+                            }
+                            .center-line {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                width: 1px;
+                                height: 100%;
+                                background-color: #cfcfcf;
+                            }
+                            .center-dot {
+                                position: absolute; 
+                                top: 50%;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                width: 13px;
+                                height: 13px;                                                     
+                                border: 2px solid #cfcfcf;
+                                border-radius: 13px;
+                                background-color: #fff;
+                                transition: all 1s;
+                            }
+                            &:nth-child(2n+1){
+                                .content-center {
+                                    .box3 {
+                                        float: left;
+                                        .text-node {   
+                                            float: right;                   
+                                        }
+                                        .time-head { 
+                                            position: relative;
+                                            margin-right: 200px;                                 
+                                            padding-right: 50px;
+                                            text-align: right;
+                                            .mask {
+                                                left: 0;
+                                            }                                
+                                        }                
+                                    }                    
+                                }
+                            }
+                            &:nth-child(2n+2){
+                                .content-center {
+                                    .box3 {
+                                        float: right;
+                                        .text-node {   
+                                            float: left;
+                                            padding-left: 95px;
+                                        }
+                                        .time-head { 
+                                            position: relative;
+                                            margin: 0;
+                                            padding: 0;
+                                            text-align: left;
+                                            padding-left: 50px;
+                                            margin-left: 200px;
+                                            .mask {
+                                                right: 0;
+                                            }
+                                        }                
+                                    }                    
+                                }        
+                            }
+                            &:hover {
+                                .content-center {
+                                    .box3 {
+                                        border: 1px solid rgb(207,207,207);                                
+                                        .time-head {
+                                            .mask {
+                                                background-color: rgb(51, 51, 51);
+                                            }
+                                            >h4 {
+                                                color: rgb(226,226,226);
+                                            }
+                                            >p {
+                                                color: rgb(204,204,204);
+                                            }                                        
+                                        }
+                                    }
+                                }
+                                .center-dot {
+                                    border-color: rgb(51,51,51);
+                                }
+                            }
+                        }
+                    }                 
+                }
+            }
+        }
+        @media screen and (max-width: 992px){
+            padding-left: 15px;
+            padding-right: 15px;
+            .box1 {
+                max-width: 768px;
+                margin: 0 auto;
+                .box2 {
+                    padding-top: 30px;
+                    padding-bottom: 100px;
+                    .course-list {
+                        .course-content {
+                            padding-bottom: 5px;
+                           .content-center {                               
+                                transition: all 1s;
+                                border: 1px solid #fff;
+                                .box3 {
+                                    width: 100%;
+                                    .text-node {
+                                        margin-top: 20px;
+                                        float: left;
+                                        >h4 {
+                                            color: #bdbdbd;
+                                            font-size: 36px;
+                                            font-family: 微软雅黑;
+                                        }
+                                        >p {
+                                            color: #bdbdbd;
+                                            font-size: 12px;
+                                            font-family: 微软雅黑;
+                                        }
+                                    }
+                                    .time-head {
+                                        display: table-cell;
+                                        vertical-align: middle;                                                                                 
+                                        padding-left: 20px;
+                                        height: 120px;
+                                        .mask {
+                                            display: none;
+                                        }
+                                        >h4 {
+                                            color: #333333;
+                                            font-size: 16px;
+                                            font-family: 微软雅黑;
+                                            font-weight: normal;                                    
+                                        }
+                                        >p {
+                                            color: #999999;
+                                            font-size: 13px;                                        
+                                            word-break: break-all;
+                                            font-family: 微软雅黑;
+                                            line-height: 24px;
+                                        }
+                                    }
+                                }
+                                &:hover {
+                                    border: 1px solid #cfcfcf;                                    
+                                }
+                            } 
+                            .center-line {
+                                display: none;
+                            }
+                            .center-dot {
+                                display: none;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+        .box1 {
+            .box2 {
+                .course-list {
+                    .course-content {
+                        opacity: 0;
+                        transition: all 1s;
+                    }
+                }
+                .course-ball {
+                    margin: 0 auto;
+                    width: 33px;
+                    height: 33px;
+                    border-radius: 50%;
+                    background-color: #cfcfcf;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,217 @@
+
+
+#main {
+    // 第一部分 背景
+    .banner-bg {
+        position: relative;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 175px;
+        // 背景图
+        .bg-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url("../img/1920x1282.jpg") no-repeat 100%;
+            background-size: cover;
+
+        }
+        // 遮罩层
+        .mask-layer {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(56,48,37,0.3);
+        }
+        // 内容区
+        .banner-content {
+            max-width: 1280px;
+            margin: 0 auto;
+            .banner-box1 {
+                width: 100%;
+                height: 100%;
+                padding: 0 40px;
+                .banner-box2 {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    margin-top: 100px;
+                    padding: 50px 50px;
+                    .mask-layer {
+                        position: absolute;
+                        background-color: rgba(0,0,0,0.2);
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        left: 0;
+                    }
+                    .center-content {
+                        position: relative;
+                        >div {
+                            padding-top: 40px;
+                            padding-bottom: 7px;
+                            text-align: center;
+                            >img {
+                                width: 226px;
+                                height: 34px;
+                            }
+                            >span {
+                                vertical-align: middle;                                
+                                font-size: 36px;
+                                color: #fff; 
+                                font-weight: 900;
+                            }
+                            >p {
+                                margin-top: 10px;
+                                font-size: 20px;
+                                color: #fff;
+                            }
+                        }
+                        >p {
+                            line-height: 20px;
+                            margin-top: 20px;
+                            padding-top: 10px;
+                            color: #fff;
+                            font-size: 14px;
+                            font-family: 微软雅黑;
+                        }
+                    }
+                }
+            }
+        }
+        @media screen and (max-width: 992px){
+            padding: 0;
+            .banner-content {
+                .banner-box1 {
+                    padding: 0;
+                    max-width: 768px;
+                    margin: 0 auto;
+                    .banner-box2 {
+                        margin-top: 0;
+                        padding: 56px 30px 88px;
+                        .center-content {
+                            >div {
+                                >img {
+    
+                                }
+                            }
+                            >p {
+    
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media screen and (max-width: 768px){
+            .banner-content {
+                .banner-box1 {
+                    .banner-box2 {
+                        .center-content {
+                            >div {
+                                >img {
+    
+                                }
+                                >span {
+                                    font-size: 19px !important;
+                                }
+                                >p {
+                                    font-size: 16px !important;
+                                }
+                            }
+                            >p {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 第二部分 联系我们
+    .touch-us {
+        background-color: #f2f2f2;
+        .container {
+            padding-bottom: 50px;
+            .row {
+                .left-box {
+                    .left-head {
+                        padding-top: 75px;
+                        padding-bottom: 20px;
+                        >h4 {
+                            font-size: 30px;
+                            color: #2f3545;
+                            @media screen and (max-width: 768px){
+                                font-size: 19px;
+                            }
+                        }
+                        >p {
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                    }
+                    .left-body {
+                        // padding-right: 30px;
+                        
+                        .body-left {
+                            float: left;
+                            width: 50%;
+                            // padding-right: 30px;
+                            >div {                                
+                                width: 100%;
+                                height: 100%;
+                                border-right: 1px solid #d6d4df;
+                                >h4 {
+                                    line-height: 32px;
+                                    font-size: 14px;
+                                    color: #303445;
+                                }
+                                >p {
+                                    line-height: 37px;
+                                    font-size: 24px;
+                                    color: #3092f3;
+                                    margin-bottom: 10px;
+                                }
+                            }
+                        }
+                        .body-right {
+                            width: 50%;
+                            float: left;
+                            >h4 {
+                                text-align: center;
+                                line-height: 32px;
+                                font-size: 14px;
+                                color: #303445;
+                            }
+                            >img {
+                                display: block;
+                                margin: 0 auto;
+                            }
+                        }
+                        
+                    }
+                }
+                .right-box {
+                    height: 100%;
+                    padding-top: 70px;
+                    >div {
+                        width: 100%;
+                        height: 100%;
+                        background-color: #fff;
+                        padding: 10px;
+                        >img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

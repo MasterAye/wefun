@@ -1,0 +1,133 @@
+@charset "utf-8";
+@import url("bootstrap.min.css")/*tpa=http://www.whwefun.com/bootstrap.min.css*/;
+@import url("common.css")/*tpa=http://www.whwefun.com/common.css*/;
+html.body{ background:#FFF}
+/*鼠标滚动切换logo*/
+header .logo1{display:block}
+header .logo2{display:none}
+
+/*导航*/
+.header_nav_li a{color:#FFF;opacity:0.5;}
+.header_nav_li.active a{color:#FFF;opacity:1;}
+.header_nav_li:hover a{color:#FFF;opacity:1;}
+.header_nav_li_i{ background:#FFF}
+
+
+/*电脑端的banner样式*/
+.priceBanner{
+	background:url(bannerbg1.png)/*tpa=http://www.whwefun.com/bannerbg1.png*/;
+	background-size:cover;
+	background-position:0 center;
+	height:500px}
+.priceBanner1{ position:relative; height:500px}
+.index_banner_box{ position:absolute; top:50%; left:0; transform:translateY(-50%)}
+.index_banner_box_title{font-size:36px;color:#FFF;font-weight:bold;}
+.index_banner_box_title2{font-size:20px;color:#FFF;margin-top:16px}
+
+.index_banner_img{
+	width:534px;
+	height:342px;
+	background:url(yingyong1.png)/*tpa=http://www.whwefun.com/yingyong1.png*/;
+	position:absolute;
+	bottom:0;
+	right:0}
+
+/*无需安装*/
+.xcx_h{
+	background:#f8f8f8;
+	padding-bottom:80px}
+.xcx_h_dl_dt{
+	margin-top:80px;}
+.xcx_h_dl_dt_1{
+	font-size:30px;
+	text-align:center;
+	color:#333333;
+	font-weight:normal}
+.xcx_h_dl_dt_2{
+	display:block;
+	width:22px;
+	height:2px;
+	background:#333333;
+	margin:0 auto;
+	margin-top:22px;}
+.xcx_h_dl_dt_3{
+	font-size:18px;
+	margin-top:30px;
+	color:#666666;
+	text-align:center;
+	font-weight:normal}
+.xcx_h_dl_dd_ul{
+	overflow:hidden;
+	padding-bottom:10px}
+.xcx_h_dl_dd_ul_li{
+	margin-top:50px;
+	font-size:16px;
+	color:#333333}
+.xcx_h_dl_dd_ul_li img{
+	display:block;
+	margin:0 auto;}
+.xcx_s_dl_dd_ul_li_div{
+	padding-bottom:10px;
+	padding-top:10px;
+	box-shadow:0 0 5px rgba(12,6,14,0.1);}
+.xcx_s_dl_dd_ul_li_text{
+	font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    margin: 11px 10px 15px 10px;
+    text-align: center;
+}
+.xcx_s_dl_dd_ul_li_text1{
+	font-size:14px;
+	color:#999;
+	margin-top:20px;
+	line-height:20px;
+	margin:0 10px;
+	height:70px;
+	text-align:center;
+	}
+
+@media screen and (max-width:1200px) {
+/*手机端banner*/
+header{ position:relative}
+.priceBanner{ height:200px}
+.priceBanner1{ height:200px}
+.index_banner_box_title{font-size:18px}
+.index_banner_box_title2{font-size:12px;}
+.index_banner_img{ display:none}
+.index_banner_box_btn{ margin-top:20px}
+
+
+.xcx_hxys{
+	background-repeat:repeat}
+.xcx_hxys_dt{
+	margin-top:45px;
+	font-size:22px;}
+.xcx_hxys_dd_ul{
+	overflow:hidden;
+	margin:0;
+	padding-bottom:30px}
+.xcx_hxys_dd_ul_li{
+	width:50%;
+	float:left;
+	text-align:center;
+	margin-top:35px}
+.xcx_hxys_dd_ul_li div{
+	margin-left:15px;
+	margin-right:15px;}
+
+.xcx_hxys_dd_div{
+	margin:0}
+.xcx_hxys_dd_div_4_1_1{
+	width:100%;
+	margin-bottom:20px}
+.xcx_hxys_dd_div_4_1_1_3,.xcx_hxys_dd_div_4_1_1_4,.xcx_hxys_dd_div_4_1_1_5{
+	display:none}
+/*核心场景*/
+.xcx_h1_dl_dd_ul_li{
+	width:50%}
+.xcx_h1_dl_dd_ul_li img{
+		width: 60px;
+		height: 60px;}
+
+	}
